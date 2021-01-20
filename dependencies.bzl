@@ -73,9 +73,9 @@ def nflx_spectatord_deps():
     http_archive(
         name = "com_github_gabime_spdlog",
         build_file = "@nflx_spectatord//third_party:spdlog.BUILD",
-        strip_prefix = "spdlog-1.8.0",
-        sha256 = "1e68e9b40cf63bb022a4b18cdc1c9d88eb5d97e4fd64fa981950a9cacf57a4bf",
-        urls = ["https://github.com/gabime/spdlog/archive/v1.8.0.tar.gz"],
+        strip_prefix = "spdlog-1.8.2",
+        urls = ["https://github.com/gabime/spdlog/archive/v1.8.2.tar.gz"],
+        sha256 = "e20e6bd8f57e866eaf25a5417f0a38a116e537f1a77ac7b5409ca2b180cec0d5",
     )
 
     # asio
